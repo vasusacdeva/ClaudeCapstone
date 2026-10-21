@@ -1,0 +1,18 @@
+﻿{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": { "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}" }
+    },
+    "jira": {
+      "command": "uvx",
+      "args": ["mcp-atlassian"],
+      "env": {
+        "JIRA_URL": "https://vasusachdeva11.atlassian.net/",
+        "JIRA_USERNAME": "vasusachdeva11@gmail.com",
+        "JIRA_API_TOKEN": "${JIRA_API_ACCESS_TOKEN}"
+      }
+    }
+  }
+}
