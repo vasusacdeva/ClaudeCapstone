@@ -1,0 +1,18 @@
+{
+  "id": "10371",
+  "key": "KAN-116",
+  "summary": "Create Basic To-Do List",
+  "browse_url": "https://vasusachdeva11.atlassian.net/browse/KAN-116",
+  "description": "### \n\n- As an end-user, when I am using the To-Do application dashboard, I want to quickly add tasks, view what needs to be done, mark tasks as complete, and delete items I no longer need so that I can stay organized and track my work.\n\n### Context\n\n- This is a clean and intuitive To-Do list interface.\n- It is the core foundational feature for the productivity application.\n\n### Acceptance criteria\n\n- Given the user is on the To-Do application dashboard,\n      - When the user types a task description into the input field and clicks the \"Add Task\" button (or presses Enter),\n      - Then the new task should instantly appear at the top/bottom of the task list with an active (incomplete) status,\n      - And the input field should automatically clear.\n- Given the user has tasks in their list,\n      - When the user clicks the \"Delete\" (trash icon) button next to a specific task,\n      - Then the task is permanently removed from the list and UI.\n\n### Other information\n\n- The interface should allow users to mark tasks as complete.",
+  "status": {"name": "To Do", "category": "To Do"},
+  "issue_type": {"name": "Story"},
+  "priority": {"name": "Medium"},
+  "project": {"key": "KAN", "name": "Codemie Capston"},
+  "assignee": "Unassigned",
+  "reporter": "Vasu Sachdeva",
+  "created": "2026-10-16 21:08:33 India Standard Time",
+  "updated": "2026-10-16 21:08:34 India Standard Time",
+  "comments": [],
+  "remote_links": [],
+  "note": "Trimmed copy of the Jira MCP jira_get_issue response (empty custom fields omitted)."
+}

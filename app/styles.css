@@ -1,0 +1,94 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f4f5f7;
+  color: #1a1a1a;
+}
+
+.container {
+  max-width: 560px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+h1 { margin-top: 0; font-size: 1.5rem; }
+
+label { display: block; margin-bottom: 0.25rem; font-weight: 600; }
+
+.row { display: flex; gap: 0.5rem; }
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #595959;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem 0.9rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #0b4f9c;
+  background: #0b5fbf;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+button:hover { background: #094a92; }
+
+:focus-visible {
+  outline: 3px solid #b35900;
+  outline-offset: 2px;
+}
+
+.empty { color: #4d4d4d; font-style: italic; }
+.empty[hidden] { display: none; }
+
+.task-list { list-style: none; padding: 0; margin: 1rem 0 0; }
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.task-item label {
+  flex: 1;
+  margin: 0;
+  font-weight: 400;
+  overflow-wrap: anywhere;
+}
+
+.task-item.completed label {
+  text-decoration: line-through;
+  color: #666666;
+}
+
+.delete-btn {
+  background: transparent;
+  color: #1a1a1a;
+  border: 1px solid #595959;
+  padding: 0.25rem 0.5rem;
+}
+
+.delete-btn:hover { background: #fde8e8; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

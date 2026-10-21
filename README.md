@@ -21,7 +21,7 @@ verification, and PR creation, producing a traceable set of docs along the way.
   hooks/                        Lifecycle protocols: pre-step, approval, post-step
 CLAUDE.md                       Repo-wide standards (CREATE framework, approval gates, MCP usage)
 .mcp.json                      MCP server connections (Jira + GitHub)
-app/                            To-Do app built for KAN-116 (index.html, app.js, tasks.js, storage.js, styles.css)
+app/                            To-Do app built for KAN-116 (index.html, app.js, tasks.js, styles.css)
 docs/
   <story-id>/                   Created per run: stage artifacts 01-08 and pipeline-state.json
 tests/
