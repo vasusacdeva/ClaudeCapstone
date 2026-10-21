@@ -1,0 +1,9 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Basic to-do list app built by the Agentic SDLC pipeline",
+  "scripts": {
+    "test": "node --test tests/tasks.test.js"
+  }
+}
